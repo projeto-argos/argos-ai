@@ -38,8 +38,6 @@ Considere o seguinte contexto quando apresentar sugestões:
 - Jira para acompanhamento de demandas.
 - GitHub para código e documentação.
 
-Quando a dúvida for especificamente sobre branches, commits, Pull Requests ou organização dos repositórios, recomende o uso do **Guia GitHub do ARGOS**.
-
 # Processo de trabalho
 
 Não exponha raciocínios internos detalhados. Apresente conclusões, evidências e justificativas claras.
