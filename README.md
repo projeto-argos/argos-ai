@@ -1,47 +1,26 @@
 # ARGOS — Inteligência Artificial
 
-Repositório destinado ao memorial descritivo, prompts, evidências e aplicações de inteligência artificial utilizadas no projeto ARGOS.
+Repositório do agente de IA criado para o ARGOS, sistema web de gestão de pecuária e de medicamentos aplicados em bovinos.
 
-## Estrutura planejada
+## Estrutura
 
 ```text
 argos-ai/
-├── memorial/
-├── prompts/
-├── evidencias/
-├── pesquisas/
-├── agente/
+├── especialista-agritech/
+│   ├── README.md                         proposta, acesso e limites do agente
+│   ├── prompt-sistema-agritech-argos.md  instruções configuradas no Gem
+│   └── base-de-conhecimento.md           fontes que o agente usa
 └── README.md
 ```
 
-## Conteúdo
+## Agente
 
-- Objetivos do uso de IA
-- Ferramentas utilizadas
-- Prompts relevantes
-- Resultados obtidos
-- Validação humana
-- Correções realizadas pela equipe
-- Limitações identificadas
-- Cuidados com segurança e privacidade
-- Possível protótipo de agente especializado
+| Agente | Gem | Função |
+|---|---|---|
+| Especialista Agritech do ARGOS | [ARGOS — Solucionador de Problemas](https://gemini.google.com/gem/1g2QTOtvX4jh5v_gnr5f3AAGxDTzhYaAq?usp=sharing) | Apoia pesquisas técnicas, sanitárias, de mercado e de UX sobre pecuária bovina |
+
+Mais detalhes em [`especialista-agritech/`](./especialista-agritech/).
 
 ## Uso responsável
 
-Todo conteúdo produzido com auxílio de inteligência artificial deve ser revisado criticamente pela equipe antes de ser utilizado no projeto.
-
-Não devem ser enviados ao repositório:
-
-- Dados pessoais sem autorização
-- Credenciais ou chaves de API
-- Senhas
-- Informações privadas da equipe
-- Conversas contendo dados sensíveis
-
-## Memorial descritivo
-
-O memorial deverá explicar onde e por que a IA foi utilizada, quais resultados foram aproveitados, como a equipe realizou a validação e quais limitações foram encontradas.
-
-## Status
-
-Em desenvolvimento.
+Todo conteúdo produzido com auxílio de IA é revisado pela equipe antes de ser usado no projeto. Não são enviados a este repositório senhas, chaves de API, arquivos `.env`, dados pessoais ou conversas com informações sensíveis.
