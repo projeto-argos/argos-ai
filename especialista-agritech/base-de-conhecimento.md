@@ -1,44 +1,33 @@
 # Base de conhecimento do Especialista Agritech
 
-## Situação atual
+## Como o agente responde
 
-Até 14/08/2026, este agente não possui arquivos anexados como base de conhecimento.
+O Gem não possui arquivos anexados. As respostas se baseiam em:
 
-Atualmente, suas respostas são fundamentadas em:
-
-- Instruções presentes no prompt do sistema.
-- Pesquisa de fontes públicas disponíveis na internet.
+- Instruções do [prompt de sistema](./prompt-sistema-agritech-argos.md).
+- Pesquisa em fontes públicas na internet.
 - Informações fornecidas pela equipe durante a conversa.
 
-## Fontes que devem ser priorizadas
+## Fontes priorizadas
 
-- Ministério da Agricultura e Pecuária — MAPA.
+- Ministério da Agricultura e Pecuária (MAPA).
 - Anvisa, quando aplicável.
 - Diário Oficial e portais governamentais.
-- Embrapa.
+- Embrapa e instituições públicas de pesquisa.
 - Bulas, rótulos e registros oficiais de produtos veterinários.
 - FAO e outras organizações internacionais reconhecidas.
 - Artigos científicos revisados por pares.
-- Documentação e páginas oficiais das soluções analisadas.
+- Páginas e documentação oficiais das soluções concorrentes analisadas.
 
 ## Limitações
 
-Sem uma base interna, o agente:
+Por não ter uma base interna, o agente:
 
-- Não deve presumir regras específicas do ARGOS.
-- Não deve tratar sugestões como requisitos aprovados.
-- Deve solicitar documentos quando uma resposta depender de informações internas.
-- Deve informar quando não conseguir consultar uma fonte atual e confiável.
-- Deve considerar somente os requisitos do primeiro ano quando eles forem fornecidos.
+- Não conhece regras específicas do ARGOS além das descritas no prompt e na conversa.
+- Não trata sugestões como requisitos aprovados.
+- Pede documentos quando a resposta depende de informação interna.
+- Avisa quando não encontra uma fonte atual e confiável.
 
-## Documentos recomendados para o futuro
+## Segurança
 
-- PDF contendo somente os requisitos do primeiro ano.
-- Descrição atualizada do problema e da proposta do ARGOS.
-- Glossário dos termos utilizados no projeto.
-- Regras de negócio validadas pela equipe.
-- Pesquisas de mercado com fontes e datas.
-- Pesquisas de UX anonimizadas e autorizadas.
-- Informações sanitárias validadas por profissional responsável.
-
-Nenhum documento privado, dado pessoal ou material sem autorização deverá ser adicionado.
+Nenhum dado pessoal, documento privado ou material sem autorização foi fornecido ao agente.
